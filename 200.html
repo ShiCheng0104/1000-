@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们的第 200 天</title>
+    <style>
+        body {
+            font-family: 'Arial', 'Microsoft YaHei', sans-serif;
+            background-color: #fdf2f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e91e63;
+            padding-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #e91e63;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.1em;
+            color: #c2185b;
+            margin-top: 10px;
+        }
+        .content-body {
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .content-body p {
+            margin: 20px 0;
+            text-indent: 2em;
+        }
+
+        .content-body .image-container {
+            margin: 30px 0;
+            text-align: center; /* Center image by default */
+        }
+
+        .content-body img {
+            max-width: 100%; /* Ensure images are responsive */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .content-body img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        /* On wider screens, let's create some variety */
+        @media (min-width: 600px) {
+            .content-body .image-container.float-left {
+                float: left;
+                margin-right: 20px;
+                margin-top: 10px;
+                width: 45%;
+            }
+            .content-body .image-container.float-right {
+                float: right;
+                margin-left: 20px;
+                margin-top: 10px;
+                width: 45%;
+            }
+            .content-body p::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #e91e63;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .back-link:hover {
+            background-color: #c2185b;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>我们的第 200 天</h1>
+            <p>与小张在一起的甜蜜时光</p>
+        </header>
+
+        <div class="content-body">
+            <p>这是我们在一起的第200天，时间过得真快。回想起这些日子，充满了许多难忘的瞬间。每一天都因为有你而变得特别。</p>
+
+            <div class="image-container float-left">
+                <img src="pic/200/679b9cc93127e69513a9bd0b030659ff.jpeg" alt="200天回忆照片1">
+            </div>
+
+            <p>还记得这张照片吗？那天的阳光特别好，就像你的笑容一样灿烂。我们一起散步，聊着未来的梦想，感觉整个世界都变得温柔起来。</p>
+
+            <p>和你在一起的时光总是那么轻松愉快。无论是看一场电影，还是简单地在家做一顿饭，都充满了幸福感。</p>
+
+            <div class="image-container float-right">
+                <img src="pic/200/IMG_2906.JPG" alt="200天回忆照片2">
+            </div>
+
+            <p>这张是我们去那家新开的咖啡馆时拍的。你总是能发现这些有意思的小店，给我们的生活带来很多惊喜。</p>
+
+            <div class="image-container">
+                <img src="pic/200/IMG_3402.JPG" alt="200天回忆照片3">
+            </div>
+
+            <p>这张照片是我最喜欢的之一，记录了我们最真实、最自然的样子。希望未来的每一个200天，我们都能像这样，一直陪伴在彼此身边。</p>
+            
+            <div class="image-container">
+                <img src="pic/200/fe9ced5faa96f2311cb23200e3b90055.jpg" alt="200天回忆照片4">
+            </div>
+
+            <p>未来的路还很长，愿我们继续携手同行，创造更多美好的回忆。爱你！</p>
+        </div>
+
+        <a href="index.html" class="back-link">返回主页</a>
+    </div>
+
+    <footer>
+        <p>♥ 小施 & 小张 ♥</p>
+    </footer>
+
+</body>
+</html>
